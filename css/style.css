@@ -44,10 +44,10 @@ html, body{
     }
 }
 body{
-	background-image: url('../img/topleft.png'), url('../img/bottomright.png'), url('../img/paper-bg.png'); 
-	background-size: 40%, auto, auto;
-	background-position: top left, bottom right, auto;
-	background-repeat: no-repeat, no-repeat, repeat;
+	background-image: url('../img/topleft.png'), url('../img/paper-bg.png'); 
+	background-size: 40%, auto;
+	background-position: top left, auto;
+	background-repeat: no-repeat, repeat;
 }
 .container{
 	width: 80%;
@@ -210,7 +210,7 @@ h1{
 }
 .mainpage{
 	position: relative;
-	top: 30vh;
+	top: 20vh;
 }
 .sidenav>hr{
 	padding: 0px;

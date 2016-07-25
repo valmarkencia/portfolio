@@ -9,8 +9,8 @@
 </head>
 <body>
 	<header class="container" style="margin-top: 3%;">
-		<h1 class="brand">Mark Anthony Valencia</h1>
-		<h4 class="job-desc">Web designer | Front-End Developer | Web Developer</h4>
+		<a href="index.php"><h1 class="brand">Mark Anthony Valencia</h1>
+		<h4 class="job-desc">Web designer | Front-End Developer | Web Developer</h4></a>
 		
 		<div class="nav center">
 			<ul class="navbar">
