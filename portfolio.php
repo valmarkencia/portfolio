@@ -2,19 +2,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-	<title>Portfolio</title>
+	<title>Portfolio | Web Designer — Philippines</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,100,100italic,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="container" style="margin-top: 3%;">
-		<h1 style="text-align: center;">Mark Anthony Valencia</h1>
-		<div class="social-nav">
-			<ul class="social">
-				<li><a href="https://www.facebook.com/mark01218"  target="_blank"><img src="../img/fb.png"></a></li>
-				<li><a href="https://www.behance.net/valmarkencia" target="_blank"><img src="../img/be.png"></a></li>
-			</ul>
-		</div>
+	<header class="container" style="margin-top: 3%;">
+		<h1 class="brand">Mark Anthony Valencia</h1>
+		<h4 class="job-desc">Web designer | Front-End Developer | Web Developer</h4>
+		
 		<div class="nav center">
 			<ul class="navbar">
 				<li><a href="index.php">Home</a></li>
@@ -22,7 +19,7 @@
 				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
-	</div>
+	</header>
 	<div class="container">
 		<div class="portfolio">
 				<div class="row">
@@ -51,7 +48,14 @@
 			
 	</div>
 	<div class="container footer">
+
 	<div class="paypal">
+	<div class="social-nav">
+			<ul class="social">
+				<li><a href="https://www.facebook.com/mark01218"  target="_blank"><img src="img/fb.png"></a></li>
+				<li><a href="https://www.behance.net/valmarkencia" target="_blank"><img src="img/be.png"></a></li>
+			</ul>
+		</div>
 		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="LQKRF5AQKBXPN">

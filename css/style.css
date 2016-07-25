@@ -63,6 +63,8 @@ ul.navbar>li, ul.social>li{
 }
 ul.navbar>li>a{
 	padding: 8px 30px;
+	letter-spacing: 5px;
+	font-weight: 400px;
 }
 ul.navbar>li{
 	padding-top: 8px;
@@ -126,7 +128,6 @@ li{
 	background-image: url('../img/vintage.jpg');
 }
 .portfolio-prev{
-	height: 50%;
 	min-height: 200px;
 	background-size: cover;
 	background-position: center;
@@ -136,8 +137,10 @@ li{
 	padding: 0px !important;
 	text-align: center;
 	text-transform: capitalize;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300px;
 }
-.paypal{
+.footer-nav{
 	clear: both;
 	padding-top: 4%;
 	text-align: center;
@@ -153,7 +156,7 @@ form{
 	margin-top: 30px;
 	width: 100%;
 }
-input[type= "text"].mail, textarea.mail{
+input[type= "text"].mail, textarea.mail, input[type= "email"].mail{
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	padding: 8px 10px;
