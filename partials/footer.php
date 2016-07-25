@@ -1,9 +1,4 @@
-<?php include('partials/index-header.php'); ?>
-	<div class="container mainpage">
-		<h1 class="brand">Mark Anthony Valencia</h1>
-		<h4 class="job-desc">Web designer | Front-End Developer | Web Developer</h4>
-	</div>
-	<!-- <div class="container footer">
+<div class="container footer">
 	<div class="footer-nav">
 		<div class="social-nav">
 			<ul class="social">
@@ -22,6 +17,6 @@
 		<div class="footer">
 			&copy; Copyright 2016
 		</div>
-	</div> -->
+	</div>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?php
-require 'PHPmailer/PHPMailerAutoload.php';
+require 'PHPMailer/PHPMailerAutoload.php';
 
 if (isset($_POST['submit'])){
 	$msg = 'Name: ' . $_POST['name'] ."\r\n"
