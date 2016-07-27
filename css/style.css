@@ -116,7 +116,7 @@ li{
 	.job-desc{
 		font-family: 'Oswald', sans-serif;
 		font-weight: 300;
-		font-size: 8px;
+		font-size: 12px;
 		line-height: 120%;
 		letter-spacing: 2.2px;
 		text-transform: capitalize;
@@ -340,5 +340,21 @@ h1{
 	font-size: 12px;
 	color: #e74c3c;
 	letter-spacing: 6px;
-	line-height: 120%;
+}
+button.accordion{
+	border: none;
+	background-image: url('../img/paper-bg.png'); 
+	background-color: #fff;
+	cursor: pointer;
+	float: right;
+}
+button.accordion.active{
+	box-shadow: none;
+}
+div.dropdown{
+	display: none;
+	padding: 0 10px;
+}
+div.dropdown.show{
+	display: block !important;
 }

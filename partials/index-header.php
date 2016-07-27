@@ -11,8 +11,10 @@
 <body>
 <header class="container" style="margin-top: 3%;">
 	<div class="mobile-nav right">
-		<div class="">
-			<a href=""><img src="img/navicon.png" alt=""></a>
+		<button class="accordion"><img src="img/navicon.png" alt=""></button>
+		<div class="dropdown">
+			<a href="portfolio">Portfolio</a><br>
+			<a href="contact">Contact</a>
 		</div>
 	</div>
 	<div class="nav center">
