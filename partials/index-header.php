@@ -10,7 +10,10 @@
 </head>
 <body>
 <header class="container" style="margin-top: 3%;">
-	<div class="sidenav">
+	<div class="mobile-nav right">
+		<div class="">
+			<a href=""><img src="img/navicon.png" alt=""></a>
+		</div>
 	</div>
 	<div class="nav center">
 		<ul class="navbar">

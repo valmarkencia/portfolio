@@ -10,8 +10,19 @@
 </head>
 <body>
 	<header class="container" style="margin-top: 3%;">
-		<a href="index.php"><h1 class="brand">Mark Anthony Valencia</h1>
-		<h4 class="job-desc">Web designer | Front-End Developer | Web Developer</h4></a>
+	<div class="mobile-nav">
+		<div class="row">
+			<div class="col-s-11">
+				<a href="index.php"><h1 class="brand">Mark Anthony Valencia</h1>
+				<h4 class="job-desc">Web designer | Front-End Developer | Web Developer</h4></a>
+			</div>
+			<div class="col-s-1 hamburger">
+				<a href="" class="right"><img src="img/navicon.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+		<a href="index.php"><h1 class="brand desktop">Mark Anthony Valencia</h1>
+		<h4 class="job-desc desktop">Web designer | Front-End Developer | Web Developer</h4></a>
 		
 		<div class="nav center">
 			<ul class="navbar">

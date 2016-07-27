@@ -6,7 +6,7 @@ html, body{
 	/*font-family: 'Lato', sans-serif;*/
 	font-family: 'Oswald', sans-serif;
 	font-style: normal;
-	font-weight: 300px;
+	font-weight: 300;
 	color: #5f5f5f;
 	animation: fadein 1.5s;
     -moz-animation: fadein 1.5s; /* Firefox */
@@ -93,17 +93,92 @@ li{
 .social{
 	text-align: center;
 }
+.nav{
+	margin-top: 1.5%;
+}
+/*mobile*/
 [class*="col-"] {
     float: left;
     width: 100%;
 }
-.nav{
-	margin-top: 1.5%;
+/*for mobile*/
+@media only screen and (max-width: 768px) {
+	.brand{
+		margin-top: 0px;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 120%;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+		letter-spacing: 5px;
+		}
+	.job-desc{
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		font-size: 8px;
+		line-height: 120%;
+		letter-spacing: 2.2px;
+		text-transform: capitalize;
+		animation: fadein 5s;
+	    -moz-animation: fadein 5s; /* Firefox */
+	    -webkit-animation: fadein 5s; /* Safari and Chrome */
+	    -o-animation: fadein 5s; /* Opera */
+		}
+	.nav{
+		display: none;
+	}
+	.desktop{
+		display: none;
+	}
+	.mobile-nav{
+		margin-top: 8%;
+	}
+	.hamburger{
+		margin-top: 1%;
+	}
+	.col-s-1{width: 100%;}
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
 }
 /*tablet*/
 @media only screen and (min-width: 600px) and (max-width: 768px) {
 	.desktop-nav{
 		display: none;
+	}
+	.brand{
+		text-align: center;
+		margin-top: 10%;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 120%;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		letter-spacing: 10.5px;
+	}
+	.job-desc{
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 120%;
+		letter-spacing: 6.2px;
+		text-transform: capitalize;
+		animation: fadein 5s;
+	    -moz-animation: fadein 5s; /* Firefox */
+	    -webkit-animation: fadein 5s; /* Safari and Chrome */
+	    -o-animation: fadein 5s; /* Opera */
 	}
 	.col-m-1{width: 100%;}
 	.col-m-1 {width: 8.33%;}
@@ -118,6 +193,7 @@ li{
 	.col-m-10 {width: 83.33%;}
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
+
 }
 /*desktop*/
 @media only screen and (min-width: 768px) {
@@ -134,6 +210,34 @@ li{
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
+
+	.brand{
+		text-align: center;
+		margin-top: 3%;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 110%;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		letter-spacing: 10.5px;
+	}
+	.job-desc{
+		text-align: center;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 120%;
+		letter-spacing: 7px;
+		text-transform: capitalize;
+		animation: fadein 5s;
+	    -moz-animation: fadein 5s; /* Firefox */
+	    -webkit-animation: fadein 5s; /* Safari and Chrome */
+	    -o-animation: fadein 5s; /* Opera */
+	}
+	.mobile-nav{
+		display: none;
+	}
 }
 .portfolio{
 	content: "";
@@ -207,33 +311,10 @@ h1{
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 }
-.brand{
-	text-align: center;
-	margin-top: 3%;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 40px;
-	line-height: 110%;
-	text-transform: uppercase;
-	margin-bottom: 15px;
-	letter-spacing: 10.5px;
-}
-.job-desc{
-	text-align: center;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
-	font-size: 15px;
-	line-height: 120%;
-	letter-spacing: 7px;
-	text-transform: capitalize;
-	animation: fadein 5s;
-    -moz-animation: fadein 5s; /* Firefox */
-    -webkit-animation: fadein 5s; /* Safari and Chrome */
-    -o-animation: fadein 5s; /* Opera */
-}
 .mainpage{
 	position: relative;
 	top: 20vh;
+	text-align: center;
 }
 .sidenav>hr{
 	padding: 0px;
@@ -241,15 +322,22 @@ h1{
 	width: 2%;
 	float: right;
 }
-.sidenav{
-	margin: 0;
-	padding: 0;
-	min-height: 2px;
-}
 .normal-font{
 	font-family: 'Oswald', sans-serif;
 	font-style: normal;
 	font-size: 16px;
 	font-weight: 300 !important;
 	letter-spacing: 2px;
+}
+.right{
+	float: right;
+}
+.construct{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-style: normal;
+	font-weight: 400 !important;
+	font-size: 12px;
+	color: #e74c3c;
+	letter-spacing: 6px;
 }
