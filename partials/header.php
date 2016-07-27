@@ -13,6 +13,7 @@
 	<div class="mobile-nav right">
 		<button class="accordion"><img src="img/navicon.png" alt=""></button>
 		<div class="dropdown">
+			<a href="index">Home</a><br>
 			<a href="portfolio">Portfolio</a><br>
 			<a href="contact">Contact</a>
 		</div>
