@@ -150,6 +150,47 @@ li{
 	.col-s-10 {width: 83.33%;}
 	.col-s-11 {width: 91.66%;}
 	.col-s-12 {width: 100%;}
+
+
+	span.navicon{
+		border: none;
+		background-image: url('../img/paper-bg.png'); 
+		background-color: #fff;
+		cursor: pointer;
+		float: right;
+	}
+	span.navicon.active{
+		box-shadow: none;
+	}
+	.sidepanel{
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		overflow-x: hidden;
+		padding-top: 60px;
+		transition: 0.5s;
+		background-color: #072c46;
+		border-left: solid 1px #d7d7d7;
+		color: #e7e7e7;
+	}
+	.sidepanel a{
+		padding: 8px 8px 8px 32px;
+		display: block;
+		transition: 0.3s;
+	}
+	.closebtn {
+	    position: absolute;
+	    top: 0;
+	    font-size: 36px !important;
+	    margin-right: 50px;
+}
+	#main {
+	    transition: margin-left 0.5s;
+	    padding: 20px;
+	}
 }
 /*tablet*/
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -340,21 +381,4 @@ h1{
 	font-size: 12px;
 	color: #e74c3c;
 	letter-spacing: 6px;
-}
-button.accordion{
-	border: none;
-	background-image: url('../img/paper-bg.png'); 
-	background-color: #fff;
-	cursor: pointer;
-	float: right;
-}
-button.accordion.active{
-	box-shadow: none;
-}
-div.dropdown{
-	display: none;
-	padding: 0 10px;
-}
-div.dropdown.show{
-	display: block !important;
 }

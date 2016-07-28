@@ -10,12 +10,21 @@
 </head>
 <body>
 	<header class="container" style="margin-top: 3%;">
-	<div class="mobile-nav right">
-		<button class="accordion"><img src="img/navicon.png" alt=""></button>
-		<div class="dropdown">
-			<a href="index">Home</a><br>
-			<a href="portfolio">Portfolio</a><br>
-			<a href="contact">Contact</a>
+	<div class="mobile-nav">
+		<div class="row">
+			<div class="col-s-11">
+				<a href="index.php"><h1 class="brand">Mark Anthony Valencia</h1>
+				<h4 class="job-desc">Web designer | Front-End Developer | Web Developer</h4></a>
+			</div>
+			<div class="col-s-1 hamburger">
+				<span class="navicon" onclick="openNav()"><img src="img/navicon.png" alt=""></span>
+				<div class="sidepanel" id="sidepanel">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="index">Home</a><br>
+					<a href="portfolio">Portfolio</a><br>
+					<a href="contact">Contact</a>
+				</div>
+			</div>
 		</div>
 	</div>
 		<a href="index.php"><h1 class="brand desktop">Mark Anthony Valencia</h1>
@@ -29,3 +38,4 @@
 			</ul>
 		</div>
 	</header>
+	<div id="main">

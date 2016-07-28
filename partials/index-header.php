@@ -11,8 +11,10 @@
 <body>
 <header class="container" style="margin-top: 3%;">
 	<div class="mobile-nav right">
-		<button class="accordion"><img src="img/navicon.png" alt=""></button>
-		<div class="dropdown">
+		<span class="navicon" onclick="openNav()"><img src="img/navicon.png" alt=""></span>
+		<div class="sidepanel" id="sidepanel">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="index">Home</a><br>
 			<a href="portfolio">Portfolio</a><br>
 			<a href="contact">Contact</a>
 		</div>
@@ -25,3 +27,4 @@
 		</ul>
 	</div>
 </header>
+<div id="main">

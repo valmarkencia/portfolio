@@ -6,16 +6,16 @@
 		<span class="construct">Site is still in progress!</span>
 	</div>
 
-<script>
-	var acc = document.getElementsByClassName("accordion");
-	var i;
 
-	for ( i = 0; i < acc.length; i++) {
-		acc[i].onclick = function(){
-			this.classList.toggle("active");
-			this.nextElementSibling.classList.toggle("show");
-		}
-	}
+<!-- id main end div -->
+</div>
+<script>
+	function openNav() {
+    document.getElementById("sidepanel").style.width = "200px";
+}
+    function closeNav() {
+    document.getElementById("sidepanel").style.width = "0";
+}
 </script>
 </body>
 </html>
