@@ -29,6 +29,5 @@
     document.getElementById("sidepanel").style.width = "0";
 }
 </script>
-</script>
 </body>
 </html>

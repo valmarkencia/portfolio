@@ -1,3 +1,4 @@
+<?php $active = "index"; ?>
 <!DOCTYPE html>
 <html lang=”en”>
 <head>
@@ -14,17 +15,17 @@
 		<span class="navicon" onclick="openNav()"><img src="img/navicon.png" alt=""></span>
 		<div class="sidepanel" id="sidepanel">
 			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<a href="index">Home</a><br>
-			<a href="portfolio">Portfolio</a><br>
-			<a href="contact">Contact</a>
+			<a href="index" <?php if ($active == 'index'){ echo ' class="active"';} ?>>Home</a><br>
+			<a href="portfolio" <?php if ($active == 'portfolio'){ echo ' class="active"';} ?>>Portfolio</a><br>
+			<a href="contact" <?php if ($active == 'contact'){ echo ' class="active"';} ?>>Contact</a>
 		</div>
 	</div>
 	<div class="nav center">
-		<ul class="navbar">
-			<!-- <li><a href="index"  class="active">Home</a></li> -->
-			<li><a href="portfolio">Portfolio</a></li>
-			<li><a href="contact">Contact</a></li>
-		</ul>
+			<ul class="navbar">
+				<li <?php if ($active == 'index'){ echo ' class="active"';} ?>><a href="index">Home</a></li>
+				<li <?php if ($active == 'portfolio'){ echo ' class="active"';} ?>><a href="portfolio">Portfolio</a></li>
+				<li <?php if ($active == 'contact'){ echo ' class="active"';} ?>><a href="contact">Contact</a></li>
+			</ul>
 	</div>
 </header>
 <div id="main">

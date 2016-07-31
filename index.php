@@ -16,5 +16,10 @@
     document.getElementById("sidepanel").style.width = "0";
 }
 </script>
+<script>	
+$('#main').click(function(){
+    close();
+}
+</script>
 </body>
 </html>

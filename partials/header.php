@@ -13,16 +13,16 @@
 	<div class="mobile-nav">
 		<div class="row">
 			<div class="col-s-11">
-				<a href="index.php"><h1 class="brand">Mark Anthony Valencia</h1>
+				<a href="index"><h1 class="brand">Mark Anthony Valencia</h1>
 				<h4 class="job-desc">Web designer | Front-End Developer | Web Developer</h4></a>
 			</div>
 			<div class="col-s-1 hamburger">
 				<span class="navicon" onclick="openNav()"><img src="img/navicon.png" alt=""></span>
 				<div class="sidepanel" id="sidepanel">
 					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-					<a href="index">Home</a><br>
-					<a href="portfolio">Portfolio</a><br>
-					<a href="contact">Contact</a>
+					<a href="index" <?php if ($active == 'index'){ echo ' class="active"';} ?>>Home</a><br>
+					<a href="portfolio" <?php if ($active == 'portfolio'){ echo ' class="active"';} ?>>Portfolio</a><br>
+					<a href="contact" <?php if ($active == 'contact'){ echo ' class="active"';} ?>>Contact</a>
 				</div>
 			</div>
 		</div>
