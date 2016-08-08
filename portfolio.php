@@ -7,7 +7,7 @@
 					<div class="col-4">
 						<a href=""><!-- 
 							<div class="portfolio-prev img1"></div> -->
-							<img src="img/cv.jpg" alt="">
+							<img src="img/cvdisplay.jpg" alt="">
 							<div class="portfolio-desc"><h3>curriculum vitae</h3></div>
 						</a>
 					</div>
